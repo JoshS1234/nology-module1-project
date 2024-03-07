@@ -4,27 +4,40 @@
     color: rgb(51, 36, 88);
     font-family: "Madimi One";
   }
+  .header-bar button {
+    color: rgb(51, 36, 88);
+    background-color: #fafafa;
+    font-weight: 600;
+  }
+  .header-bar button p {
+    font-size: 1.6em;
+  }
   main .subheading-1 {
     color: rgb(65, 183, 241);
     font-size: 3em;
   }
   main .textbox h1 {
     color: rgb(51, 36, 88);
+    font-weight: 300;
   }
   main .textbox h2 {
     color: rgb(65, 183, 241);
+    font-weight: 200;
   }
   main .textbox h3 {
     color: rgb(51, 36, 88);
+    font-weight: 100;
   }
   main button {
     color: #fafafa;
     background-color: rgb(51, 36, 88);
     font-size: 2.5em;
+    font-weight: 800;
   }
   main .subheading-2 {
     color: rgb(51, 36, 88);
-    font-size: 2.5em;
+    font-size: 2.8em;
+    font-weight: 600;
   }
   main section {
     display: flex;
@@ -47,7 +60,7 @@
     background-color: rgb(252, 250, 236);
     font-family: "Roboto", sans-serif;
     text-decoration: none;
-    margin: 2vh auto;
+    font-size: 2em;
   }
 }
 @media screen and (max-width: 768px) {
@@ -158,7 +171,7 @@
     align-items: center;
   }
   nav a {
-    font-size: 2em;
+    margin: 2vh auto;
   }
 }
 * {
