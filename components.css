@@ -1,1 +1,7 @@
-/*# sourceMappingURL=components.css.map */
+@media screen and (max-width: 768px) {
+  .subheading {
+    color: rgb(65, 183, 241);
+    font-size: 3em;
+    text-align: center;
+  }
+} /*# sourceMappingURL=components.css.map */

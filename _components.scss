@@ -1,0 +1,34 @@
+@use "./variables" as *;
+
+@media screen and (max-width: 768px) {
+  .header-bar {
+    color: $aubergine-color;
+    font-family: "Madimi One";
+  }
+  main {
+    .subheading-1 {
+      color: $light-blue-text;
+      font-size: 3em;
+    }
+
+    .textbox {
+      h1 {
+        color: $aubergine-color;
+      }
+
+      h2 {
+        color: $light-blue-text;
+      }
+
+      h3 {
+        color: $aubergine-color;
+      }
+    }
+
+    button {
+      color: #fafafa;
+      background-color: $aubergine-color;
+      font-size: 2.5em;
+    }
+  }
+}
