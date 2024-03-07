@@ -40,6 +40,15 @@
   main section .info-card h2 b {
     font-weight: 800;
   }
+  nav {
+    background-color: rgb(252, 250, 236);
+  }
+  nav a {
+    background-color: rgb(252, 250, 236);
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    margin: 2vh auto;
+  }
 }
 @media screen and (max-width: 768px) {
   * {
@@ -142,6 +151,14 @@
   main section .info-card h2 {
     text-align: center;
     width: 60%;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    font-size: 2em;
   }
 }
 * {
