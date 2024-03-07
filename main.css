@@ -22,6 +22,24 @@
     background-color: rgb(51, 36, 88);
     font-size: 2.5em;
   }
+  main .subheading-2 {
+    color: rgb(51, 36, 88);
+    font-size: 2.5em;
+  }
+  main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  main section .info-card h2 {
+    font-size: 2em;
+    font-weight: 200;
+  }
+  main section .info-card h2 b {
+    font-weight: 800;
+  }
 }
 @media screen and (max-width: 768px) {
   * {
@@ -95,7 +113,35 @@
     width: 60%;
     padding: 20px 30px;
     border-radius: 10px;
-    margin: 2vh auto;
+    margin: 3vh auto;
+  }
+  main .subheading-2 {
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 5vh auto;
+  }
+  main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  main section .info-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    height: auto;
+  }
+  main section .info-card img {
+    width: 40%;
+  }
+  main section .info-card h2 {
+    text-align: center;
+    width: 60%;
   }
 }
 * {
