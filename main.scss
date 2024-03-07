@@ -1,9 +1,19 @@
-@use "./components.scss" as *;
-@use "./layout.scss" as *;
-@use "./variables.scss" as *;
+@use "./components";
+@use "./layout";
+@use "./variables";
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+* {
+  background-color: red;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    background-color: white;
+  }
 }
